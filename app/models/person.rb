@@ -3,8 +3,8 @@ class Person < ActiveRecord::Base
     establish_connection(
       :adapter  => 'postgresql',
       :host => 'localhost',
-      :username => 'dbcon',
-      :password => 'dbconpass',
+      :username => 'xxxx',
+      :password => 'xxxxx',
       :database => dbname
     )
   end
